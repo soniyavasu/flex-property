@@ -1,0 +1,336 @@
+<!doctype html>
+<html>
+<head>
+<title>box shadow</title>
+<!-- <link rel="style sheet" href="css/style.css"> -->
+</head>
+<body>
+	
+	<!-- <p style="background-color:aqua;">this is block item<span style="background-color:yellow;"> this is inlie item</span>hellow</p> -->
+	<!-- <p style="background-color:aqua;">this is block item<span style="background-color:yellow;display:block;"> this is inlie item</span>hellow</p> -->
+	<!-- <p style="background-color:aqua;">this is block item<span style="background-color:yellow;display:inline-block; width:200px;"> this is inlie-block item</span>hellow</p> -->
+	
+	<!-- <div style="margin:0 auto;"> -->
+		<!-- <div style="height:150px;width:140px;background-color:blue;margin:10px;"></div> -->
+		<!-- <div style="height:150px;width:140px;background-color:blue;margin:10px;"></div> -->
+		<!-- <div style="height:150px;width:140px;background-color:blue;margin:10px;"></div> -->
+		<!-- <div style="height:150px;width:140px;background-color:blue;margin:10px;"></div> -->
+	<!-- </div> -->
+<h1 style="text-align:center; color:red;">Flex properties</h1>
+<h2>display: flex;</h2>
+	<div style="display:flex;">
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+	</div>
+<h2>flex-grow;</h2>
+	<div style="display:flex;">
+		<div style="height:150px;background-color:orange;margin:10px;flex-grow: 1;"></div>
+		<div style="height:150px;background-color:orange;margin:10px;flex-grow: 3;"></div>
+		<div style="height:150px;background-color:orange;margin:10px;flex-grow: 5;"></div>
+		<div style="height:150px;background-color:orange;margin:10px;flex-grow: 1;"></div>
+	</div>
+<h2>flex-shrink;</h2>	
+	
+	<div style="display:flex;">
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;flex-shrink: 0"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+	</div>
+<h2>flex-basis</h2>
+	<div style="display:flex;">
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;flex-basis:200px"></div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;flex-basis:0px">hellow</div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;"></div>
+	</div>
+<h2>flex:25%</h2>
+	<div style="display:flex;">
+		<div style="height:150px;background-color:orange;margin:10px;flex:25%;"></div>
+		<div style="height:150px;background-color:orange;margin:10px;flex:25%;"></div>
+		<div style="height:150px;background-color:orange;margin:10px;flex:25%;"></div>
+		<div style="height:150px;background-color:orange;margin:10px;flex:25%;"></div>
+	</div>
+<h1 style="text-align:center; color:red;">Flex-direction</h1>
+<h2>flex-direction: column;</h2>
+	<div style="display:flex;flex-direction: column;">
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;">1</div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;">2</div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;">3</div>
+		<div style="height:150px;width:140px;background-color:orange;margin:10px;">4</div>
+	</div>
+<h2>flex-direction: column-reverse;</h2>
+	<div style="display:flex;flex-direction: column-reverse;">
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">1</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">2</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">3</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">4</div>
+	</div>
+	<h2>flex-direction: row-reverse;</h2>
+	<div style="display:flex;flex-direction: row-reverse;">
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">1</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">2</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">3</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">4</div>
+	</div>
+<h1 style="text-align:center; color:red;">Flex-wrap property</h1>
+<h2>flex-wrap: wrap;</h2>
+	<div style="display:flex;flex-wrap: wrap;">
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">1</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">2</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">3</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">4</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">5</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">6</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">7</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">8</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">9</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">10</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">11</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">12</div>
+	</div>
+<h2>flex-wrap: nowrap;</h2>
+
+	<div style="display:flex;flex-wrap: nowrap;width:4000px;">
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">1</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">2</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">3</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">4</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">5</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">6</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">7</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">8</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">9</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">0</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">11</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">12</div>
+	</div>
+<h2>align-items: center;</h2>
+		
+	<div style="display:flex; align-items:center;">
+		<div style="height:100px;width:140px;background-color:#009999;margin:10px;">center</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">align-</div>
+		<div style="height:130px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:60px;width:140px;background-color:#009999;margin:10px;"></div>
+	</div>
+<h2>align-items: flex-start;</h2>
+
+	<div style="display:flex; align-items:flex-start;">
+		<div style="height:100px;width:140px;background-color:#009999;margin:10px;">start</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">align-</div>
+		<div style="height:130px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:60px;width:140px;background-color:#009999;margin:10px;"></div>
+	</div>
+<h2>align-items: flex-end;</h2>
+	<div style="display:flex; align-items:flex-end;">
+		<div style="height:100px;width:140px;background-color:#009999;margin:10px;">start</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">align-</div>
+		<div style="height:130px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:60px;width:140px;background-color:#009999;margin:10px;"></div>
+	</div>
+<h2>align-items: stretch;</h2>
+	<div style="display:flex; align-items:stretch;">
+		<div style="height:100px;width:140px;background-color:#009999;margin:10px;">stretch</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:130px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:60px;width:140px;background-color:#009999;margin:10px;"></div>
+	</div>
+<h2>align-content: stretch;</h2>	
+	<div style=" align-content:stretch; height:300px;">
+		<div style="height:50px;width:140px;background-color:#339966;margin:1px;">stretch</div>
+		<div style="height:50px;width:140px;background-color:#339966;margin:1px;"></div>
+		<div style="height:50px;width:140px;background-color:#339966;margin:1px;"></div>
+		<div style="height:50px;width:140px;background-color:#339966;margin:1px;"></div>
+	</div>
+<h2>align-content: stretch;</h2>
+	<div style="width: 100%;height: 400px;display: flex;flex-wrap: wrap;align-content: stretch;">
+		<div style="height:50px;width:140px;background-color:#339966;margin:1px;">center</div>
+		<div style="height:50px;width:100%;background-color:#339966;margin:1px;"></div>
+		<div style="height:50px;width:140px;background-color:#339966;margin:1px;"></div>
+		<div style="height:50px;width:140px;background-color:#339966;margin:1px;"></div>
+	</div>
+<h1 style="text-align:center; color:red;">Justify-content property</h1>
+<h2>justify-content:flex-start;</h2>
+	<div style="display:flex; justify-content:flex-start;width:1100px;">
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+	</div>
+<h2>justify-content: flex-end;</h2>
+	<div style="display:flex; justify-content:flex-end;width:1100px;">
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+	</div>
+<h2>justify-content: space-between;</h2>
+	<div style="display:flex; justify-content:space-between;width:1100px;">
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">bet</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+	</div>
+<h2>justify-content: space-around;</h2>
+	<div style="display:flex; justify-content:space-around;width:1100px;">
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">aro</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+	</div>
+<h2>justify-content: space-evenly;</h2>
+	<div style="display:flex; justify-content:space-evenly;width:1100px;">
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;">eve</div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+		<div style="height:150px;width:140px;background-color:#009999;margin:10px;"></div>
+	</div>
+	
+
+
+<!-- <section>
+<h1>Box shadow</h1>
+	<div class="box first">
+	</div>
+	<div class="box first1">
+	</div>
+	<div class="box first_1">
+	</div>
+	<div class="box first_2">
+	</div>
+	<div class="box first_3">
+	</div>
+	<div class="box first_4">
+	</div>
+	<div class="box first_5">
+	</div>
+	<div class="box first_6">
+	</div>
+	<div class="box first_7">
+	</div>
+	<div class="box first_8">
+	</div>
+	<div class="atc1">
+	</div>
+	<div class="atc2">
+	</div>
+	<div class="atc3">
+	</div>
+	<div class="blm1">
+	</div>
+	<div class="bgclip1">
+		<p>
+border-box
+The background extends to the outside edge of the border (but underneath the border in z-ordering).
+
+padding-box
+The background extends to the outside edge of the padding. No background is drawn beneath the border.
+
+content-box
+The background is painted within (clipped to) the content box.
+
+text
+The background is painted within (clipped to) the foreground text.</p>
+	</div>
+	<div class="bgclip2">
+		<p>
+border-box
+The background extends to the outside edge of the border (but underneath the border in z-ordering).
+
+padding-box
+The background extends to the outside edge of the padding. No background is drawn beneath the border.
+
+content-box
+The background is painted within (clipped to) the content box.
+
+text
+The background is painted within (clipped to) the foreground text.</p>
+	</div>
+	<div class="bgclip3">
+		<p>
+border-box
+The background extends to the outside edge of the border (but underneath the border in z-ordering).
+
+padding-box
+The background extends to the outside edge of the padding. No background is drawn beneath the border.
+
+content-box
+The background is painted within (clipped to) the content box.
+
+text
+The background is painted within (clipped to) the foreground text.</p>
+	</div>
+	<div class="bg1">
+	</div>
+	<div class="bg2">
+	</div>
+	<div class="bg3">
+	</div>
+	<div class="bgi1">
+	</div>
+	<div class="bgi2">
+	</div>
+	<div class="bgorg1">
+	</div>
+	<div class="bgorg2">
+	</div>
+	<div class="bgorg3">
+	</div>
+	<div class="div eone">
+	</div>
+	<div class="div etwo">
+	</div>
+	<div class="div ethree">
+	</div>
+	<div class="div ex1">
+	</div>
+	<div class="div ex2">
+	</div>
+	<div class="div ex3">
+	</div>
+	<div class="div ey1">
+	</div>
+	<div class="div ey2">
+	</div>
+	<div class="div ey3">
+	</div>
+	
+	<div class="divv rep1">
+	</div>
+	<div class="divv rep2">
+	</div>
+	<div class="divv rep3">
+	</div>
+	<div class="divv rep4">
+	</div>
+	<div class="divv rep5">
+	</div>
+	<div class="divv rep6">
+	</div>
+	<div class="divv rep7">
+	</div>
+	
+	<div class="divv size1">
+	</div>
+	<div class="divv size2">
+	</div>
+	<div class="divv size3">
+	</div>
+	<div class="divv size4">
+	</div>
+	
+	
+	
+</section> -->
+</body>
+</html>
